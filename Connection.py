@@ -1,8 +1,16 @@
+'''
+Function Name    :  Display All Rows From Employee Table
+Function Author  :  Prasad Yeole
+Input            :  ----
+Output           :  It Display All Records Of Info Table
+
+'''
+
 import mysql.connector
 
-def connect_to_mariadb():
+def connect_to_DataBase():
     try:
-        # Replace these values with your MariaDB connection details
+        # Replace these values with your DataBase connection details
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -11,7 +19,7 @@ def connect_to_mariadb():
         )
 
         if connection.is_connected():
-            print("Connected to MariaDB")
+            print("Connected to DataBase")
             
             # Perform database operations here
             
@@ -33,4 +41,4 @@ def connect_to_mariadb():
             print("Connection closed")
 
 if __name__ == "__main__":
-    connect_to_mariadb()
+    connect_to_DataBase()
