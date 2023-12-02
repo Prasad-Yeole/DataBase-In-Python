@@ -2,7 +2,7 @@
 Function Name    :  Display All Rows From Employee Table
 Function Author  :  Prasad Yeole
 Input            :  ----
-Output           :  It Display All Records Of Emptab
+Output           :  It Display All Records Of Info
 
 '''
 
